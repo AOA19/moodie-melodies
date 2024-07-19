@@ -1,0 +1,7 @@
+.welcome-txt {
+    font-family: var(--ff-primary);
+}
+
+.welcome-heading {
+    font-family: var(--ff-accent);
+}
