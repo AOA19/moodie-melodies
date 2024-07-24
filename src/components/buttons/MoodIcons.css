@@ -1,0 +1,10 @@
+.icon-bg {
+    width: 95px;
+    height: 95px;
+}
+
+.icon-bg:hover {
+    @apply bg-seasalt border-4 border-palegreen;
+    cursor: pointer;
+
+}
