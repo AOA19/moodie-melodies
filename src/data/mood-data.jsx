@@ -5,11 +5,9 @@ import relaxedIcon from "../assets/relaxed-icon.svg";
 import excitedIcon from "../assets/excited-icon.svg";
 import anxiousIcon from "../assets/anxious-icon.svg";
 import romanticIcon from "../assets/romantic-icon.svg";
-import chillIcon from "../assets/chill-icon.svg";
 import focusIcon from "../assets/focus-icon.svg";
 import confidentIcon from "../assets/confident-icon.svg";
 import calmIcon from "../assets/calm-icon.svg";
-import energeticIcon from "../assets/energetic-icon.svg";
 
 export const moods = [
   {
@@ -56,32 +54,33 @@ export const moods = [
   },
   {
     id: 7,
-    mood: "Chill",
-    src: chillIcon,
-    alt: "snowflake",
-  },
-  {
-    id: 8,
     mood: "Focused",
     src: focusIcon,
     alt: "brain",
   },
   {
-    id: 9,
+    id: 8,
     mood: "Confident",
     src: confidentIcon,
     alt: "confident stance",
   },
   {
-    id: 10,
+    id: 9,
     mood: "Calm",
     src: calmIcon,
     alt: "meditation icon",
   },
-  {
-    id: 11,
-    mood: "Energetic",
-    src: energeticIcon,
-    alt: "lightening bolt",
-  },
 ];
+
+export const moodGenres = {
+  happy: ["pop", "happy", "country", "disco"],
+  sad: ["sad", "blues", "singer-songwriter"],
+  angry: ["metal", "rock", "punk"],
+  relaxed: ["chill", "jazz", "folk", "singer-songwriter"],
+  excited: ["dance", "funk", "latin", "party", "house"],
+  anxious: ["ambient", "chill"],
+  romantic: ["romance", "soul", "r-n-b", "salsa"],
+  focused: ["acoustic", "study", "classical"],
+  confident: ["dance", "hip-hop", "afrobeat", "pop"],
+  calm: ["new-age", "sleep", "classical"],
+};
