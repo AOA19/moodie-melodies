@@ -1,10 +1,20 @@
 .icon-bg {
-    width: 95px;
-    height: 95px;
+    width: 110px;
+    height: 110px;
 }
 
 .icon-bg:hover {
     @apply bg-seasalt border-4 border-palegreen;
-    cursor: pointer;
 
+}
+
+.icon-img {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-txt {
+    font-family: var(--ff-secondary);
+    font-size: 20px;
+    font-weight: 600;
 }
