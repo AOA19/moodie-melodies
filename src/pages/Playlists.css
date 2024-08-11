@@ -1,0 +1,13 @@
+.mood-change-btn {
+    font-family: var(--ff-primary);
+    font-size: 20px;
+}
+
+.playlists-header {
+    font-family: var(--ff-primary);
+    font-weight: 600;
+}
+
+.playlist-name, .playlist-songs {
+    font-family: var(--ff-primary);
+}
