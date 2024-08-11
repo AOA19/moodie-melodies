@@ -1,4 +1,3 @@
-// import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Welcome from "./pages/Welcome";
@@ -11,7 +10,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Welcome />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/playlists" element={<Playlists />} />
+        <Route path="/playlists/:mood" element={<Playlists />} />
       </Routes>
     </BrowserRouter>
   );
