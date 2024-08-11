@@ -1,17 +1,15 @@
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
+import "./WelcomeBtn.css";
 
-function WelcomeBtn() {
+export default function WelcomeBtn() {
   return (
     <div className="flex justify-center items-center">
-      <a></a>
       <Link to="/home">
-      <button className="bg-orchid-500 text-seasalt text-xl hover:bg-orchid-600 flex items-center px-7 py-3">
-        Get Started <FaArrowRight />{" "}
-      </button>
+        <button className="welcome-btn bg-orchid-500 text-seasalt text-xl hover:bg-orchid-600 flex items-center px-10 py-3 rounded-full">
+          Get Started <FaArrowRight className="ms-2" />{" "}
+        </button>
       </Link>
     </div>
   );
 }
-
-export default WelcomeBtn;
