@@ -15,6 +15,9 @@ export default {
         seasalt: "#F7F9F9",
         offwhite: "#FFFBF0",
       },
+      screens: {
+        'md': "700px",
+      }
     },
   },
   plugins: [],

@@ -5,3 +5,10 @@
 .welcome-heading {
     font-family: var(--ff-accent);
 }
+
+@media screen and (min-width: 700px) {
+    .welcome-paragraph {
+        width: 530px;
+        margin: auto;
+    }
+}
