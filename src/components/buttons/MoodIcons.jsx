@@ -12,7 +12,7 @@ export default function MoodIcons() {
 
   return (
     <div>
-      <div className="grid grid-cols-2 gap-8 px-5 pt-9">
+      <div className="grid grid-cols-2 gap-8 px-5 pt-9 m-auto min-[500px]:grid-cols-3 md:grid-cols-5 md:mt-12 xl:w-[1000px] ">
         {moods.map((mood) => (
           <button
             key={mood.id}

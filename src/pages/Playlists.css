@@ -1,6 +1,12 @@
 .mood-change-btn {
-    font-family: var(--ff-primary);
+    font-family: var(--ff-secondary);
     font-size: 20px;
+    font-weight: 500;
+}
+
+.mood-change-btn:hover {
+    text-decoration: underline;
+    font-weight: 700;
 }
 
 .playlists-header {
@@ -9,5 +15,12 @@
 }
 
 .playlist-name, .playlist-songs {
-    font-family: var(--ff-primary);
+    font-family: var(--ff-secondary);
+   
+}
+
+@media screen and (min-width: 1024px) {
+    .mood-change-btn {
+        font-size: 25px;
+    }
 }
