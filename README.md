@@ -33,8 +33,8 @@ npm install
 4. Create a .env file in the root directory and add your Spotify API credentials:
 
 ```
-VITE_SPOTIFY_CLIENT_ID=spotify_client_id
-VITE_SPOTIFY_CLIENT_SECRET=spotify_client_secret
+VITE_SPOTIFY_CLIENT_ID= "your_spotify_client_id"
+VITE_SPOTIFY_CLIENT_SECRET= "your_spotify_client_secret"
 ```
 
 5. Start the Server
@@ -63,11 +63,11 @@ npm run build
 
 ### Future Developments
 
-[] Add an embeded Spotify music player so when the playlists are displayed the user can click on any of the playlists to listen right in the application
-[] Randomize the playlists that are displayed. Currently the same 8 playlists are displayed for each mood
-[] Figure out how to add more moods for users to choose from. Currently the application only has 5 moods because there is a limitation of how many genres (5) that can be requested from the API.
-[] Switch from the [Client Credientals](https://developer.spotify.com/documentation/web-api/tutorials/client-credentials-flow) authorization flow to [Authorization Code Flow](https://developer.spotify.com/documentation/web-api/tutorials/code-flow) so users can log in with their personal Spotify account. 
-[] Add a favorites features when authorization flow is changed. 
+- [ ] **Add an Embedded Spotify Music Player:** Enable users to click on any playlist and listen directly within the application.
+- [ ] **Randomize Playlist Display:** Currently, the same 8 playlists are displayed for each mood. Implement a feature to randomize the playlists shown
+- [ ] **Expand Mood Options** Explore ways to add more moods for users to choose from. Currently, the application only supports 5 moods due to the limitation of requesting only 5 genres from the Spotify API.
+- [ ] **Switch to Authorization Code Flow:** Transition from the [Client Credentials](https://developer.spotify.com/documentation/web-api/tutorials/client-credentials-flow) authorization flow to [Authorization Code Flow](https://developer.spotify.com/documentation/web-api/tutorials/code-flow), allowing users to log in with their personal Spotify accounts.
+- [ ] **Add a Favorites Feature:** Once the authorization flow is changed, introduce a feature that lets users mark playlists as their favorites. 
 
 
 
